@@ -1,0 +1,34 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.msgr {
+    width: min(90vw, 700px);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 10px;
+    padding-top: 10px;
+}
+.msgr__messages {
+    height: 100px;
+    flex-grow: 1;
+    border: 1px solid #ced4da;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.msgr__poll {
+    padding-right: 20px;
+    padding-bottom: 5px;
+    margin-top: auto;
+    position: relative;
+    height: 0;
+    overflow-y: scroll;
+    transition: 150ms ease;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

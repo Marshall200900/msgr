@@ -1,0 +1,18 @@
+.MsgItem {
+    font-size: 1.4rem;
+    display: flex;
+}
+
+.MsgItem .MsgItem__Msg {
+    text-align: left;
+
+    max-width: 60%;
+    word-wrap: break-word;
+    white-space: normal;
+    border-radius: 15px !important;
+    font-weight: 400;
+}
+
+.MsgItem__right {
+    justify-content: flex-end;
+}
